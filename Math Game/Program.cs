@@ -63,7 +63,7 @@ break;
 }
 
 Console.Write("\n");
-Console.WriteLine($"Question  is : {randomnumber1} {Operator} {randomnumber2}\t\tPlayer Score {score } out of 21");
+Console.WriteLine($"Question  is : {randomnumber1} {Operator} {randomnumber2} = ? \t\tPlayer Score {score } out of 21");
 Console.Write("\n");
 Console.Write("Answer : ");
 int userinput=Convert.ToInt32(Console.ReadLine());
